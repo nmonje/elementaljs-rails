@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{A Gem wrapper for ElementalJS}
   gem.summary       = %q{A Gem wrapper for ElementalJS}
   gem.homepage      = ""
+  gem.license       = 'MIT'
 
   gem.add_dependency "jquery-rails"
   gem.add_dependency "railties", "~> 3.1"
