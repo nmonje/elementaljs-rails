@@ -22,6 +22,10 @@ To include in your Rails Javascript manifest
 
 	//= require elemental
 	
+To have Elemental load by default on document ready, include:
+
+	//= require elemental-onload	
+	
 If you are also using the behaviours that come with the Gem, you can use by including:
 	
 	//= require elemental-reload
